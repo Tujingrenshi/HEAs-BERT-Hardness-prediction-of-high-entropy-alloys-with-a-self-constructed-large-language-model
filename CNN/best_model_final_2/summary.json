@@ -1,0 +1,30 @@
+{
+  "R2_mean": 0.9564902880621448,
+  "R2_std": 0.0219463405782063,
+  "MAE_mean": 36.44400779328378,
+  "MAE_std": 6.066264697302318,
+  "RMSE_mean": 59.76671111396479,
+  "RMSE_std": 18.19847314635054,
+  "best_params": {
+    "conv_filters": [
+      12,
+      28,
+      56
+    ],
+    "dense_units": [
+      256,
+      128,
+      64,
+      16
+    ],
+    "kernel_size": [
+      5,
+      5
+    ],
+    "learning_rate": 0.00010956749686519973,
+    "batch_size": 12,
+    "dropout_rate": 0.0097086836073558,
+    "use_batch_norm": true,
+    "activation": "selu"
+  }
+}
